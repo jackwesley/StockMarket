@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Producer.Model
+namespace Consumer.Model
 {
     public class Symbols
     {
@@ -11,6 +11,7 @@ namespace Producer.Model
         {
             SymbolsToRate = new List<string>();
         }
+
         public IList<string> SymbolsToRate { get; set; }
     }
 }

@@ -28,7 +28,7 @@ namespace Producer.Services
                                          autoDelete: false,
                                          arguments: null);
 
-                    string message = JsonConvert.SerializeObject(symbols.SymbolsToRate);
+                    string message = JsonConvert.SerializeObject(symbols);
                     var body = Encoding.UTF8.GetBytes(message);
 
                     channel.BasicPublish(exchange: "",
