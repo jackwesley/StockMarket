@@ -5,7 +5,7 @@ In this solution there are 2 pojects.
 for a posterior processment.
 Use:https://localhost:44354/StockMarket/SymbolRate
 {
-  "symbolsToRate": ["b3sa3", "bcff11"] 
+  "symbolsToRate": ["b3sa3", "bidi4"] 
 }
 
 
