@@ -12,4 +12,6 @@ EndPoint Method Post:
 "symbolsToRate":  ["b3sa3", "bidi4"]
 }
 
-2. (Consumer) - Console Application responsible for read the RabbitMQ and get a price from Brazilian Stock Market via api https://hgbrasil.com/
+2. (Consumer) - Console Application responsible for read the RabbitMQ and get a price 
+
+from Brazilian Stock Market via api https://hgbrasil.com/
