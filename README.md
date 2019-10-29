@@ -1,6 +1,9 @@
 # StockMarket
 > This is a project to get information form Brazilian Stock Market. In this solution there are 2 pojects.
 
+## Requirements 
+`Dot Net Core 3.0`
+
 ## Producer
 1. API which you can call passing the symbol of a stock from Brazilian Stock Market. This call insert the codes in a RabbitMQ
 for a posterior processment.
